@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="idHASHAnchorPane" prefHeight="529.0" prefWidth="639.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treelibrariry.HASHController">
+   <children>
+      <Label fx:id="idMessage" layoutX="32.0" layoutY="24.0" prefHeight="17.0" prefWidth="151.0" text="Label" />
+      <Label layoutX="80.0" layoutY="480.0" text="Enter the Key:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="keyTextField" layoutX="168.0" layoutY="478.0" prefHeight="25.0" prefWidth="108.0" />
+      <JFXButton fx:id="addLinebtn" layoutX="482.0" layoutY="470.0" onAction="#DeleteNodeBtn" prefHeight="42.0" prefWidth="108.0" stylesheets="@../../../LibManagement/src/ViewBook/addBook.css" text="DELETE" />
+      <JFXButton fx:id="InsertNodeBtn" layoutX="305.0" layoutY="470.0" onAction="#InsertNodeBtn" prefHeight="42.0" prefWidth="128.0" stylesheets="@../../../LibManagement/src/ViewBook/addBook.css" text="INSERT" />
+   </children>
+</AnchorPane>

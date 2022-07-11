@@ -1,0 +1,11 @@
+.button:hover{
+    -fx-background-color: black;
+    -fx-text-fill: gray;
+}
+.glyph-icon{
+   -fx-fill: white;
+}
+.button:hover .glyph-icon{
+    -fx-text-fill: red;
+}
+
